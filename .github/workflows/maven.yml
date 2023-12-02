@@ -11,6 +11,8 @@ name: Build package with Maven
 on:
   release:
     types: [created]
+  push:
+    branches: [master]
 
 jobs:
   build:
